@@ -165,7 +165,7 @@ binding_modes:
         bindings: ['shift+e']
       - commands: ['shell-exec shutdown /r /t 0']
         bindings: ['shift+r']
-      - commands: ['shell-exec shutdown /r /s 0']
+      - commands: ['shell-exec shutdown /s /t 0']
         bindings: ['shift+s']
       # Press enter/escape to return to default keybindings.
       - commands: ['wm-disable-binding-mode --name command::Lock(L)|Restart(R)|Shutdown(S)|Logout(E)']
