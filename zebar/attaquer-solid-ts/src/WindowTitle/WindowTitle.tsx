@@ -15,8 +15,8 @@ const WindowTitle: Component<WindowTitleProps> = (props) => {
           item.hasFocus && (
             <div class="current-window">
               {item.title &&
-                (item.title.length > 90
-                  ? item.title.slice(0, 90) + "..."
+                (item.title.length > 50
+                  ? item.title.slice(0, 50) + "..."
                   : item.title)}
             </div>
           ),

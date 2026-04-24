@@ -50,6 +50,7 @@ function App() {
       </div>
       <div class="center">
         <CurrentApps glazewm={output.glazewm} />
+        <WindowTitle glazewm={output.glazewm} />
       </div>
       <div class="right">
         <Systray systray={output.systray} glazewm={output.glazewm} />
